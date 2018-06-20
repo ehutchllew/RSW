@@ -10,14 +10,8 @@ Make sure that you have the Gatsby CLI program installed:
 npm install --global gatsby-cli
 ```
 
-And run from your CLI:
+Then run website on your localhost:8000 via:
 ```sh
-gatsby new gatsby-example-site
-```
-
-Then you can run it by:
-```sh
-cd gatsby-example-site
 gatsby develop
 ```
 
