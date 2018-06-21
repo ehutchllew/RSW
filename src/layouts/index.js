@@ -15,7 +15,7 @@ const Layout = ({ children, data }) => (
       ]}
     />
 
-    <div style={{minWidth: '110px'}}>
+    <div>
       <Header siteTitle={data.site.siteMetadata.title} />
     </div>
     
@@ -23,7 +23,6 @@ const Layout = ({ children, data }) => (
       style={{
         margin: '0 auto',
         display: 'flex',
-        overflow: 'hidden',
         height: '100vh'
       }}
     >
