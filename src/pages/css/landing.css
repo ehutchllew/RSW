@@ -8,13 +8,13 @@
 
 .hero .background-image {
     position: absolute;
-    background: url(../../images/landing.jpg);
+    background: url(../../images/hero.jpg);
 	top: 0;
 	left: 0;
 	width: 100%;
 	height: 100%;
     background-size: cover;
-    background-position: 6vw -12vh;
+    background-position: 0 -15vh;
     background-color: #252525;
     background-repeat: no-repeat;
 }
