@@ -19,6 +19,7 @@
     background-position: 0 -12vh;
     background-color: #252525;
     background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .hero-content-area {
@@ -49,8 +50,16 @@
     }
     
     .hero .background-image{
-        background-position: -20vw 3vh;
-        background-size: 150% 100%;
+        background-position: -25vw 0;
+        background-size: cover;
         background-repeat: no-repeat;
+    }
+
+    .hero-content-area h1{
+        font-size: 40px;
+    }
+    
+    .hero-content-area h3{
+        font-size: 20px;
     }
 }

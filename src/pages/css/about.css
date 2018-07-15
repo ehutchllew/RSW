@@ -1,0 +1,17 @@
+.aboutContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.aboutContainer span{
+    width: 50%;
+    height: 5px;
+    background-color: #706664;
+}
+.aboutContainer p{
+    max-width: 50%;
+    text-align: center;
+    text-justify: distribute-all-lines;
+}

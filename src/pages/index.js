@@ -7,7 +7,7 @@ const IndexPage = () => (
       <Landing />
       <About />
       <div>
-        <h1>HI</h1>
+        <h1 style={{backgroundColor: '#9d979b'}}>HI</h1>
       </div>
     </div>
 )
