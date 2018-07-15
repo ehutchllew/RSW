@@ -6,9 +6,8 @@ const Landing = () => {
         <section className="hero">
             <div className="background-image" />
             <div className="hero-content-area">
-                <h1>Mountain Travel</h1>
-                <h3>Unmissable Adventure Tours Around The World</h3>
-                <a href="#" className="btn">Contact Us Now</a>
+                <h1>Raysa Suarez Williams</h1>
+                <h3>Image Consulting</h3>
             </div>
       </section>
     )

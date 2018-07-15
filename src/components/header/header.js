@@ -23,7 +23,7 @@ const Header = ({ siteTitle }) => (
             <Link to='/about' className="link">About</Link>
           </li>
           <li>
-            <Link to='/portfolio' className="link">Portfolio</Link>
+            <Link to='/projects' className="link">Projects</Link>
           </li>
         </ul>
     </nav>
