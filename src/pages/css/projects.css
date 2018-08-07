@@ -1,3 +1,6 @@
+ul{
+    list-style: none;
+}
 .projectsContainer{
     display: flex;
     flex-direction: column;
@@ -5,4 +8,23 @@
     align-items: center;
     background-color: #9d979b;
     min-height: 100vh;
+}
+.projectGrid{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.projectTile{
+    height: 350px;
+    padding: 20px;
+    background-clip: content-box;
+    background-size: cover;
+    background-position: center;
+}
+.projectTile:nth-child(even){
+    flex-basis: 30%;
+}
+.projectTile:nth-child(odd){
+    flex-basis: 70%;
 }
