@@ -1,11 +1,11 @@
-.aboutContainer{
+.contactContainer{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
     min-height: 100vh;
 }
-.aboutContainer span{
+.contactContainer span{
     width: 50%;
     height: 5px;
     background-color: #706664;
