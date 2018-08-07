@@ -8,16 +8,26 @@ export default class Projects extends Component {
     }
     renderProjects = () => {
         const { proyectos } = this.props;
+        let classCounter = 1;
+        let classSize = 'small';
         const allProjects = [1, 2, 3, 4].map((item, index) => {
+            if(index !==0 && classCounter == 2){
+                classSize = classSize == 'small' ? 'large' : 'small';
+                classCounter = 1;
+            } else{
+                classCounter++;
+            }
+
             return(
-                <li className="projectTile" style={{backgroundImage: `url(${require(`../assets/mountain${index+1}.jpg`)})`}}></li>
+                <li className={`projectTile ${classSize}`} style={{backgroundImage: `url(${require(`../assets/mountain${index+1}.jpg`)})`}}></li>
             )})
         return allProjects;
     }
     render(){
         return (
             <div className='projectsContainer'>
-                <h1>Projects</h1>
+                <h1 className='projectHeader'>Projects</h1>
+                <span />
                 <ul className='projectGrid'>
                     {this.renderProjects()}
                 </ul>
