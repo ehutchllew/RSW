@@ -33,8 +33,6 @@ export default class Projects extends Component {
   render() {
     return (
       <div className="projectsContainer">
-        <h1 className="projectHeader">Projects</h1>
-        <span />
         <ul className="projectGrid">{this.renderProjects()}</ul>
       </div>
     )

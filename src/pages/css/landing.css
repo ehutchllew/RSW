@@ -1,65 +1,64 @@
 .hero {
-    display: flex;
-	position: relative;
-    justify-content: center;
-    align-items: center;
-	text-align: center;
-	min-height: 100vh;
-	color: #fff;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
 }
 
 .hero .background-image {
-    position: absolute;
-    background: url(../../images/hero.jpg);
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-    background-size: cover;
-    background-position: 0 -12vh;
-    background-color: #252525;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+  position: absolute;
+  background: url(../../images/hero.jpg);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: 0 -12vh;
+  background-color: #252525;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .hero-content-area {
-	opacity: 0;
-	margin-top: 100px;
-    animation: 1s slidefade 1s forwards;
-    height: fit-content;
+  opacity: 0;
+  margin-top: 100px;
+  animation: 1s slidefade 1s forwards;
+  height: fit-content;
 }
 
-.hero-content-area h1{
-    font: bold 60px "Verdana", sans-serif;
+.hero-content-area h1 {
+  font-size: 80px;
 }
 
-.hero-content-area h3{
-    font: normal 30px "Verdana", sans-serif;
+.hero-content-area h3 {
+  font-size: 30px;
 }
 
 @keyframes slidefade {
-    100% {
-        opacity: 1;
-        margin-top: 0;
-    }
+  100% {
+    opacity: 1;
+    margin-top: 0;
+  }
 }
 
-@media (max-width: 800px){
-	.hero{
-		min-height: 500px;
-    }
-    
-    .hero .background-image{
-        background-position: -25vw 0;
-        background-size: cover;
-        background-repeat: no-repeat;
-    }
+@media (max-width: 800px) {
+  .hero {
+    min-height: 500px;
+  }
 
-    .hero-content-area h1{
-        font-size: 40px;
-    }
-    
-    .hero-content-area h3{
-        font-size: 20px;
-    }
+  .hero .background-image {
+    background-position: -25vw 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .hero-content-area h1 {
+    font-size: 40px;
+  }
+
+  .hero-content-area h3 {
+    font-size: 20px;
+  }
 }
